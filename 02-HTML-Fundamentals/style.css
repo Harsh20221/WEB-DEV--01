@@ -3,9 +3,13 @@
 /?Means Whatever will be applied here will get copied to every item
 /?but it has the Lowest Priority--*/
 
-/**{
-    border-top: 10px solid #1098ad;
-}*/
+*{
+margin:0 ;   /*comm--This'll reset all the margin and Padding in the CSS file */
+    padding: 0;
+}
+
+
+
 h1,h2,h3,h4 ,p ,li {
    font-family: sans-serif;
 
@@ -65,6 +69,10 @@ li {
     font-size: 20px;
     font-family: sans-serif;
     margin-bottom: 10px;
+}
+
+li:last-child{
+    margin-bottom:0;
 }
 
 
