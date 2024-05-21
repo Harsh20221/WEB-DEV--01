@@ -97,3 +97,7 @@ a:link{
     color: #ad1010;
 
 }
+
+a:visited{
+    color: #1098ad;
+}
