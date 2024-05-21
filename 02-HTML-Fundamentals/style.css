@@ -8,6 +8,7 @@
 }*/
 h1,h2,h3,h4 ,p ,li {
    font-family: sans-serif;
+
 }
 
 body {
@@ -15,8 +16,17 @@ body {
     border-top: 10px solid #1098ad;
 }
 
+.main_header{
+
+    padding: 20px 40px ; /*? This'll add 20px padding in front and 40 px in the left and right */
+}
+aside{
+    background-color: #f7f7f7;
+    border: 5px solid #1098ad;
+}
+
 h1 {
-    color: blue;
+    color: #1098ad;
     font-size: 26px;
     font-family: sans-serif;
     text-transform: uppercase;
@@ -84,13 +94,7 @@ article header p{  /*? In css we can also group our header items by mentioning t
 .related_list {
     list-style: none;
 }
-.main_header{
-    color: #f7f7f7;
-}
-aside{
-    background-color: #f7f7f7;
-    border: 5px solid #1098ad;
-}
+
 
 li:first-child{
     font-style: italic;
