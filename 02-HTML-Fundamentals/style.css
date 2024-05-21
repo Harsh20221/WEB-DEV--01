@@ -55,3 +55,8 @@ article header p{  /*? In css we can also group our header items by mentioning t
     font-style: italic;
 }
 
+#Author {
+    font-style: italic;
+    font-size: 18px;
+
+}
