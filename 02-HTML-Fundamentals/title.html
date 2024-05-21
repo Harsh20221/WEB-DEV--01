@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">  <!--? This meta charset is helping us to display the Book Emoji--->
     <title> The Basic Language of Web:HTML</title>
+    <link href="style.css"  rel="stylesheet">
 </head>
 <body>
 <header>
@@ -13,13 +14,15 @@
         <a href="#">Flexbox</a>
         <a href="#">CSS Grid</a>
     </nav>
+    <p>TEST PARAGRAPH </p>
 </header>
 <article>
     <header>
         <h1> The Basic Language of Web :
             HTML </h1>
         <img src="laura-jones.jpg" alt="Photo of the Author , A cute  Girl with Purple Hair " height="50" width="50"/>
-        <p>Posted by <strong>Laura Jones</strong> on Monday, June 21st 2027
+        <p id="Author">Posted by <strong>Laura Jones</strong> on Monday, June 21st 2027
+            <!--todo:To use Id based Styling in CSS MAKE SURE to specify id like we mentioned author  inside paragraph, here in the Html file --->
 
             <img src="post-img.jpg" alt="HTML CODE ON A SCREEN" width="500" height="200"/></header>
     </p>
@@ -59,8 +62,8 @@
     </ul>
     <p>Hopefully you learned something new here. See you next time!</p>
 </article>
-<footer>Copyright &copy; 2027 by the code Magazine.  <!--?We have added &copy to show copyright logo -->
-</footer>
+<footer> <p> Copyright &copy; 2027 by the code Magazine.  <!--?We have added &copy to show copyright logo -->
+</p>  </footer>
 <p>
     <strong>Related Posts </strong>
 </p>
@@ -71,12 +74,14 @@
         <p>By Jonas Schmedtmann</p>
     </li>
     <li>
-        <img src="related-2.jpg" height="75" width="75" alt="Photo of a lightning strike "> <a href="#">The Unknown Powers of CSS</a>
-       <p> By Jim Dilon</P>
+        <img src="related-2.jpg" height="75" width="75" alt="Photo of a lightning strike "> <a href="#">The Unknown
+        Powers of CSS</a>
+        <p> By Jim Dilon</P>
     </li>
     <li>
-        <img src="related-3.jpg" height="75" width="75" alt="Html code on screen "> <a href="#">Why Javascript is Awesome </a>
-     <p> By Matilda</p>
+        <img src="related-3.jpg" height="75" width="75" alt="Html code on screen "> <a href="#">Why Javascript is
+        Awesome </a>
+        <p> By Matilda</p>
     </li>
 </ul>
 </body>
