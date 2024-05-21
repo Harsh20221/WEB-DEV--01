@@ -60,3 +60,40 @@ article header p{  /*? In css we can also group our header items by mentioning t
     font-size: 18px;
 
 }
+
+#Copyright {
+    font-size: 16px;
+}
+
+.related_Author{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.related_list {
+    list-style: none;
+}
+.main_header{
+    color: #f7f7f7;
+}
+aside{
+    background-color: #f7f7f7;
+    border: 5px solid #1098ad;
+}
+
+li:first-child{
+    font-style: italic;
+    font-weight: bold;
+}
+li:last-child{
+    font-style:italic;
+}
+
+li:nth-child(even){
+    color:red;
+}
+
+a:link{
+    color: #ad1010;
+
+}
