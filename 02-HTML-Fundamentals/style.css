@@ -1,14 +1,11 @@
 
 h1,h2,h3,h4 ,p ,li {
    font-family: sans-serif;
-    color: #444;  /**** Here #444 stands for #444444 we have written only three 4 because others get repeated */
-}
-h1,h2,h3{
-    color: #1098ad;
 }
 
 
 h1 {
+    color: blue;
     font-size: 26px;
     font-family: sans-serif;
     text-transform: uppercase;
@@ -63,58 +60,3 @@ article header p{  /*? In css we can also group our header items by mentioning t
     font-size: 18px;
 
 }
-
-#Copyright {
-    font-size: 16px;
-}
-
-.related_Author{
-    font-size: 18px;
-    font-weight: bold;
-}
-
-.related_list {
-    list-style: none;
-}
-.main_header{
-    color: #f7f7f7;
-}
-aside{
-    background-color: #f7f7f7;
-    border: 5px solid #1098ad;
-}
-
-li:first-child{
-    font-style: italic;
-    font-weight: bold;
-}
-li:last-child{
-    font-style:italic;
-}
-
-li:nth-child(even){
-    color:red;
-}
-
-a:link{
-    color: #1098ad;
-
-}
-
-a:visited{
-    color: #1098ad;
-}
-a:hover{
-color: orangered;
-    font-weight: bold;
-    text-decoration: underline orangered;
-}
-
-a:active{
-background-color: black;
-    font-style: italic;
-}
-
-
-
-
