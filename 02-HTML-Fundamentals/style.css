@@ -101,3 +101,14 @@ a:link{
 a:visited{
     color: #1098ad;
 }
+
+a:hover{
+    color: orangered;
+    font-weight:bold ;
+    text-decoration: underline orangered;
+}
+
+a:active{
+    background-color: black;
+    font-style: italic;
+}
