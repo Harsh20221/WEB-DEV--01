@@ -1,8 +1,22 @@
+*{
+    margin:0 ;   /*comm--This'll reset all the margin and Padding in the CSS file */
+    padding: 0;
+}
+
+
+.div_container{
+    width:auto;
+}
+
 body{
+
     border: black 5px solid;
     font-family: sans-serif;
 }
 
+.product_title{
+
+}
 
 h1 { background-color: #f7f7f7;
     font-weight: bold;
