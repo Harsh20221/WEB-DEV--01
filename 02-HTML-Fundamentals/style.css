@@ -27,6 +27,18 @@ body {
 aside{
     background-color: #f7f7f7;
     border: 5px solid #1098ad;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    height: 80px;
+}
+.post_img{
+    width:100%;
+    height: auto;
+
+}
+
+.post_header{
+    margin-bottom: 30px;
 }
 
 h1 {
@@ -40,6 +52,7 @@ h1 {
 h2 {
     font-size: 40px;
     font-family: sans-serif;
+    margin-bottom: 30px;
 
 
 }
@@ -48,6 +61,8 @@ h2 {
 h3 {
     font-size: 30px;
     font-family: sans-serif;
+    margin-top: 40px;
+    color: #1098ad;
 
 }
 
@@ -63,6 +78,7 @@ p { /* ?Selecting this p will trigger all the paragraph elements */
     font-size: 22px;
     font-family: sans-serif;
     line-height: 1.5;
+    margin-bottom: 15px;
 }
 
 li {
