@@ -10,7 +10,7 @@ margin:0 ;   /*comm--This'll reset all the margin and Padding in the CSS file */
 
 .container{
     width:800px;
-
+position: relative;
     margin: 0 auto;  /*comm-- This is a shorthand way of writing margins where the 0 stands for the top while the auto stands for left and right */
 }
 
@@ -180,7 +180,8 @@ button{
     padding: 20px;
     font-size: 22px;
     position: absolute;
-   bottom: 50px;   /*? This'll set the Button to bottom right */
-    right: 50px;
+   bottom:-200px;   /*? This'll set the Button to bottom right */
+    right: 100px;
+
 
 }
