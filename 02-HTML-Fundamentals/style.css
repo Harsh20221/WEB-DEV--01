@@ -8,6 +8,12 @@ margin:0 ;   /*comm--This'll reset all the margin and Padding in the CSS file */
     padding: 0;
 }
 
+.container{
+    width:800px;
+
+    margin: 0 auto;  /*comm-- This is a shorthand way of writing margins where the 0 stands for the top while the auto stands for left and right */
+}
+
 
 
 h1,h2,h3,h4 ,p ,li {
@@ -26,7 +32,6 @@ body {
 }
 aside{
     background-color: #f7f7f7;
-    border: 5px solid #1098ad;
     padding-bottom: 50px;
     padding-top: 50px;
     height: 80px;
@@ -82,6 +87,7 @@ p { /* ?Selecting this p will trigger all the paragraph elements */
 }
 
 li {
+
     font-size: 20px;
     font-family: sans-serif;
     margin-bottom: 10px;
@@ -104,6 +110,7 @@ article header p{  /*? In css we can also group our header items by mentioning t
 #Author {
     font-style: italic;
     font-size: 18px;
+    font-family: sans-serif;
 
 }
 
@@ -118,6 +125,7 @@ article header p{  /*? In css we can also group our header items by mentioning t
 
 .related_list {
     list-style: none;
+    border: #1098ad solid 5px;
 }
 
 
