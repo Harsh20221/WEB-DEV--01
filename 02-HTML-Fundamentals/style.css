@@ -182,6 +182,43 @@ button{
     position: absolute;
    bottom:-200px;   /*? This'll set the Button to bottom right */
     right: 100px;
+}
+
+h1::first-letter{
+    font-style: normal;
+font-size: 80px;
+}
+
+h2{
+    font-style:normal;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #1098ad;
+    font-family: sans-serif;
+}
+
+h2::first-letter{
+    font-style:normal;
+    font-size: 80px;
+    text-transform: uppercase;
+    color: #1098ad;
+    font-family: sans-serif;
+}
+
+/*
+p::first-line{
+    text-transform: uppercase;
+    color: orangered;
+}*/
+
+h3 + p::first-line{
+
+}
 
 
+h2::after{
+    content:"Top";
+    background-color: #ffe70e;
+    font-size:16px;
+    font-weight: bold;
 }
