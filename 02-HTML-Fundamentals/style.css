@@ -55,6 +55,7 @@ h1 {
     font-style: italic;
 }
 
+/*
 h2 {
     font-size: 40px;
     font-family: sans-serif;
@@ -62,6 +63,7 @@ h2 {
 
 
 }
+*/
 
 nav a:link{
     margin: 20px;
@@ -195,7 +197,8 @@ h2{
     text-transform: uppercase;
     color: #1098ad;
     font-family: sans-serif;
-}
+    display: inline-block; /*! This inline block display is very imp  */
+     position: relative          }
 
 h2::first-letter{
     font-style:normal;
@@ -221,4 +224,7 @@ h2::after{
     background-color: #ffe70e;
     font-size:16px;
     font-weight: bold;
+    display: inline-block;
+    padding: 5px 10px;
+
 }
