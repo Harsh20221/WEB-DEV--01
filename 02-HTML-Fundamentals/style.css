@@ -219,7 +219,7 @@ h3 + p::first-line{
 }
 
 
-h2::after{
+h2::before{
     content:"Top";
     background-color: #ffe70e;
     font-size:16px;
