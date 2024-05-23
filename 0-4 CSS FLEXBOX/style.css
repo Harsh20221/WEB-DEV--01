@@ -266,3 +266,11 @@ nav p {
   font-size: 18px;
 } */
 
+.author-img{
+  float: left; } /***It allows you to move an element (like an image) to the left or right side of its container,
+/****enabling text and inline elements to wrap around it.
+/***Flow of Content: The floated element is taken out of the normal flow of the page's content,
+/***but it's still considered part of the flow (unlike absolute positioning).
+*/
+
+.
