@@ -9,20 +9,25 @@ If changing the execution policy is not desirable, you can use a batch file inst
 Create a Batch File (run_html.bat):
 
 batch
-Copy code
+Copy code-------
 
 @echo off
 "C:\Program Files\Google\Chrome\Application\chrome.exe" %1
+
+
 Configure Code Runner to Use the Batch File:
 
 Open your VS Code settings (settings.json) and add:
 
 json
-Copy code
+Copy code-----
+
 {
     "code-runner.executorMapByFileExtension": {
         ".html": "C:\\HTML\\run_html.bat"
     },
-    "code-runner.runInTerminal": true
+    "code-runner.runInTerminal": true  ( You can skip this line if this feature is already enabled in your VS Code )
 }
+
+
 This approach does not require changing PowerShell execution policies and should work seamlessly to open HTML files in your default browser.
