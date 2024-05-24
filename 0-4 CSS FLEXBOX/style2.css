@@ -1,0 +1,62 @@
+*{
+    margin:0 ;   /*comm--This'll reset all the margin and Padding in the CSS file */
+    padding: 0;
+}
+
+
+.div_container{
+    width:auto;
+}
+
+body{
+
+    border: black 5px solid;
+    font-family: sans-serif;
+}
+
+.product_title{
+
+}
+
+h1 { background-color: #f7f7f7;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 20px;
+    text-align: center;
+}
+a:link{
+    text-decoration: underline;
+    color: black;
+}
+ .info_button:hover{
+     text-decoration: none;
+ }
+
+
+button{
+     background-color:black;
+     font-size: 20px;
+     color: #f7f7f7;
+    border: none;  /*! Make sure to set this attribute for a Non Bordered Button */
+    text-transform: uppercase;
+
+ }
+ button:hover{
+     background-color: snow;
+     color:black ;
+ }
+
+.product_details{
+    font-weight: bold;
+    font-family: sans-serif;
+}
+ol{
+    font-family: sans-serif;
+    list-style-type:square ;
+}
+.shipping {
+    text-transform: uppercase;
+}
+.price{
+    font-size: 24px;
+}
