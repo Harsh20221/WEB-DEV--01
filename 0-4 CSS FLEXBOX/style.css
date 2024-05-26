@@ -269,7 +269,7 @@ nav p {
   font-size: 18px;
 } */
 
-.author-img{
+/* .author-img{
   float:left;
   margin-bottom: 20px;
 }
@@ -322,10 +322,21 @@ footer{
 
   box-sizing: border-box;
 
-}
+} */
 
 .main-header{
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+.author-box{
+  display: flex;
+  align-items: center;
+  padding-bottom: 15px;
+}
+
+
+.author{
+  margin-bottom: 0;
+margin-left: 15px;
 }
