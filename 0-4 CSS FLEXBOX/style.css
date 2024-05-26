@@ -200,7 +200,7 @@ nav a:link {
   display: block; */
 
   margin-right: 30px;
-  margin-top: 10px;
+/*   margin-top: 10px; */
   display: inline-block;
 }
 
@@ -225,9 +225,9 @@ h1::first-letter {
   margin-right: 5px;
 }
 
-h3 + p::first-line {
-  /* color: red; */
-}
+/* h3 + p::first-line {
+  /* color: red; 
+} */
 
 h2 {
   /* background-color: orange; */
@@ -322,4 +322,10 @@ footer{
 
   box-sizing: border-box;
 
+}
+
+.main-header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
