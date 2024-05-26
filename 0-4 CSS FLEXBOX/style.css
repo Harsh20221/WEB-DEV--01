@@ -362,3 +362,8 @@ font-weight: bold;
 font-style: normal;
 margin-bottom: 5px;
 }
+
+
+.row{
+  display: flex;
+}
