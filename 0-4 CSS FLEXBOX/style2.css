@@ -28,21 +28,21 @@ body {
 /*# PRODUCT INFORMATION */
 .price {
     font-size: 24px;
-    float: left;
+  /*   float: left; */
 }
 .product-info{
-    width:243px;  //*?This Width is Calculated through a formula */
-float:left;
+    width:243px;  /*?This Width is Calculated through a formula */
+/* float:left; */
 
 }
 .product-details{
 width:243px;
-    float: left;
+ /*    float: left; */
     margin:20px;
 
 }
 .product-img{
-    float:left;
+    /* float:left; */
     margin-right: 40px;
 }
 
@@ -52,7 +52,7 @@ width:243px;
     font-weight: bold;
     color: #777;
     margin-bottom: 20px;
-    float: right;
+   /*  float: right; */
 }
 
 .sale {
