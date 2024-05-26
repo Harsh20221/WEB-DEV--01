@@ -1,3 +1,5 @@
+/*!!!!IMPNOTE--- It is very important to choose the Correct Container to Apply Flexbox on to get the Desired  Results 
+*/
 * {
   /* border-top: 10px solid #1098ad; */
   margin: 0;
@@ -125,19 +127,19 @@ li:last-child {
   font-size: 16px;
 }
 
-.related-author {
+/* .related-author {
   font-size: 18px;
   font-weight: bold;
-}
+} */
 
 /* ul {
   list-style: none;
 } */
 
-.related {
+/* .related {
   list-style: none;
   margin-left: 0;
-}
+} */
 
 body {
   /* background-color: orangered; */
@@ -339,4 +341,24 @@ footer{
 .author{
   margin-bottom: 0;
 margin-left: 15px;
+}
+
+
+.related-post{
+display:flex ;
+align-items: center;
+font-size: 14px;
+font-weight: normal;
+font-style: italic;
+gap: 20px;
+
+
+}
+
+
+.related-link:link{
+font-size: 17px;
+font-weight: bold;
+font-style: normal;
+margin-bottom: 5px;
 }
