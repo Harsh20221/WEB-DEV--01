@@ -29,7 +29,7 @@ body {
   padding-left: 40px;
   padding-right: 40px; 
   padding: 20px 40px;
-   margin-bottom: auto; 
+   margin-bottom: 20px; 
    height: auto; 
 }
 
@@ -225,6 +225,7 @@ button {
 h1::first-letter {
   font-style: normal;
   margin-right: 5px;
+  margin-bottom: 20px;
 }
 
 /* h3 + p::first-line {
@@ -240,12 +241,14 @@ h2::after {
   content: "TOP";
   background-color: #ffe70e;
   color: #444;
-  font-size: 26px;
+  font-size: 16px;
   font-weight: bold;
   display: inline-block;
+  padding: 20px 10px;  /*? In this specific case, 20px 10px means that the top and bottom padding of the element will be 20px, and the left and right padding will be 10px.*/
   position: absolute;
-  margin-right: 200px ;
-}
+  /* top: -10px;
+  right: -25px;
+} */}
 
 /* Resolving conflicts */
 /* #copyright {
@@ -395,6 +398,7 @@ column-gap: 0;
 row-gap: 0;
 align-items: start;
 width: 1125px;
+gap: 30px ;
 }
 
 
