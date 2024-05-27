@@ -39,11 +39,25 @@
         font-size: 40px;
         margin: 40px;
         display: grid;
-        grid-template-columns:120px 100px 130px auto auto ;  /* This is a very Crucial Grid Example , By setting columns 120 100 130 what will be displayed is the first column of our grid willbe set to 120 then second will be 100 then third will be 130 and then it'll select column width automaticalyy for next two columns then the values for other columns willl again repeat from 120 , Hence we cans day that  value of 6th column will be 120 again */
         
-grid-template-rows:  132px 178px 116px ; /* The Value of 1 Row ( Entire row )  will going to be 132 then for second row it'll be 178 and for third will be 116 if 3 row exist ,  !!!IMP- The row valies will be applicabe to the auto values of column too hance for the auto grid items the value will be auto x 132 ,  auto x 178   */
-        /* CSS GRID */
+  /*    grid-template-columns:120px 100px 130px auto auto ;   This is a very Crucial Grid Example , By setting columns 120 100 130 what will be displayed is the first column of our grid willbe set to 120 then second will be 100 then third will be 130 and then it'll select column width automaticalyy for next two columns then the values for other columns willl again repeat from 120 , Hence we cans day that  value of 6th column will be 120 again */      
+/*grid-template-rows:  132px 178px 116px ;  The Value of 1 Row ( Entire row )  will going to be 132 then for second row it'll be 178 and for third will be 116 if 3 row exist ,  !!!IMP- The row valies will be applicabe to the auto values of column too hance for the auto grid items the value will be auto x 132 ,  auto x 178   */
+grid-template-columns: repeat(4,1fr);/*This fr is a fraction unit , it'll divide the grid into 4 equal parts */
+grid-template-rows: 1fr 1fr;      /*This will divide the grid into 2 equal parts */
+column-gap: 20px;
+row-gap: 40px;
+grid-row:  1 / 2 ;
       }
+
+
+.el--8{
+
+grid-row: 2 / 3;  
+grid-column:1/ 2 ;
+
+}
+
+
 
       .container--2 {
         /* STARTER */
