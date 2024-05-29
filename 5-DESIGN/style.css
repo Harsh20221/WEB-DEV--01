@@ -142,9 +142,10 @@ h3 {
 .chair-price {
   display: flexbox;
   justify-content: space-between;
-  font-size: 22px;
+  font-size: 40px;
   white-space: nowrap;
-  font-size: 30px;
+  
+  
 }
 
 footer {
@@ -156,10 +157,13 @@ footer {
     color: #fff;
     text-decoration: none;
     text-transform: uppercase;
-    padding:0%;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 18px;
+    padding-bottom: 18px;
 /*     font: weight 100px; */
     display: inline-block;
-    border-radius: 10px;
+    border-radius: 18px;
     font-size: 25px;
     
 }
@@ -188,6 +192,7 @@ display: inline-block;
 /* box-sizing: border-box; */
 align-self: center;
 align-items: center;
+margin-bottom: 20px;
 
 }
 
@@ -195,5 +200,6 @@ align-items: center;
 /* margin-left: 10px; */
 font-size:20px;
 white-space:nowrap;
+margin-bottom: 24px;
 }
 
