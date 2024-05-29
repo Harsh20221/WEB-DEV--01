@@ -158,8 +158,8 @@ footer {
     text-transform: uppercase;
     padding:0%;
 /*     font: weight 100px; */
-    display: flexbox;
-    border-radius: 20px;
+    display: inline-block;
+    border-radius: 10px;
     font-size: 25px;
     
 }
@@ -181,10 +181,11 @@ img{
 
 .btn--small{
 margin-right: 10px;
-font-size: 20px;
+font-size: 12px;
 border-radius: 0px;
 margin-bottom: 2px;
-box-sizing: border-box;
+display: inline-block;
+/* box-sizing: border-box; */
 align-self: center;
 align-items: center;
 
