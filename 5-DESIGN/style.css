@@ -146,6 +146,7 @@ h3 {
   justify-content: space-between;
   font-size: 40px;
   white-space: nowrap;
+  align-items: center;
   
   
 }
